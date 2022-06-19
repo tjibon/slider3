@@ -1,0 +1,124 @@
+/* Default Css Start */
+html,
+body {
+  position: relative;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&display=swap');
+ 
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    min-height: 500px;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  right: 58px;
+  top: 32px;
+  width: 467px;
+  height: 433px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.swiper-slide .title {
+  font-size: 69px;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  line-height: 1;
+}
+
+.swiper-slide .subtitle {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 47px;
+  margin-top: 40px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
+
+
+.parallax-bg img {
+  width: 100%;
+  height: 100%;
+}
+
+.price-section {
+  text-align: center;
+  overflow: hidden;
+  margin-top: 45px;
+}
+.price-section p {
+    z-index: 9;
+    font-family: Lato;
+    color: rgb(203, 149, 0);
+    text-decoration: none;
+    white-space: normal;
+    width: 241px;
+    height: 19px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: right;
+    line-height: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+
+}
+
+p.amount {
+  text-align: right;
+  line-height: 43px;
+  letter-spacing: 0px;
+  font-weight: 300;
+  font-size: 43px;
+  color: #fff;
+  float: left;
+}
+
+a.pro-info {
+  background-color: #CB9500;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 30px;
+  float:right;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  display: none;
+}
